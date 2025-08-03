@@ -19,8 +19,8 @@ Automatización de respuestas para Duolingo.
 
 ## Uso
 
-1. Ve a Duolingo e inicia una práctica
-2. La extensión guardará automáticamente el ID de la práctica
+1. Ve a Duolingo e inicia una historia - haz click en continuar - ya puedes salirte de la historia.
+2. Inicia una lección - responde la primer pregunta - click en continuar - ya puedes salirte de la historia.
 3. Usa el panel flotante para obtener puntos automáticamente
 4. Cada click en el botón "Dar puntos" te dará 90 puntos de experiencia
 5. Iniciar repetición brinda 90 puntos de experiencia por segundo hasta que detengas la acción.
