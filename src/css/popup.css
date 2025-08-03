@@ -1,0 +1,165 @@
+* {
+  font-family: "Dongle", sans-serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+  --background-color: #58CC02;
+  --border-color: #46A302;
+  --main-color: #A8E6CF;
+  --title-color: #FFFFFF;
+  color: var(--main-color);
+}
+
+h1 {
+  color: var(--title-color);
+  position: relative;
+  font-size: 5.5rem;
+  margin: 0 0.5rem;
+  height: 8rem;
+}
+p {
+  font-size: 2rem;
+}
+body {
+  background-color: var(--background-color);
+  width: 280px;
+  height: 380px;
+}
+
+#version {
+  color: var(--title-color);
+  position: absolute;
+  font-size: 2rem;
+  top: 0;
+  right: 0;
+  opacity: 0.6;
+}
+
+label {
+  position: relative;
+  bottom: -10px;
+  text-align: left;
+  width: 90%;
+  font-size: 1.7rem;
+  margin-top: 0.2rem;
+}
+label,
+input,
+textarea {
+  display: block;
+}
+input,
+textarea {
+  font-size: 1.5rem;
+  position: relative;
+  color: var(--background-color) !important;
+  width: 90%;
+  background-color: var(--main-color);
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 0.6rem 5px;
+  height: 5rem;
+  border: 5px solid var(--border-color);
+  border-bottom: 10px solid var(--border-color);
+}
+
+textarea {
+  resize: none;
+}
+
+#url-label {
+  margin-top: 1rem;
+}
+
+#url {
+  height: 1rem;
+}
+
+#ans {
+  position: relative;
+  bottom: -40px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+textarea {
+  line-height: 0.8;
+}
+
+#config {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+#github > img {
+  aspect-ratio: 1/1;
+  height: 2rem;
+}
+
+#github {
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--border-color);
+  padding: 0.5rem 0;
+  color: white;
+}
+
+#loopCheckbox {
+  border: 5px solid;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px;
+  appearance: none;
+  position: relative;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 2px;
+  background-color: #e7ecff;
+  cursor: pointer;
+}
+
+#loopCheckbox:checked {
+  border: 5px solid #515cc2;
+  background-color: #515cc2;
+}
+
+#loopCheckbox:checked::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  width: 12px;
+  height: 6px;
+  border-bottom: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  transform: rotate(-45deg);
+}
+
+.checkboxItem {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  width: fit-content;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.checkboxItem:not(:last-of-type) {
+  margin-bottom: 16px;
+}

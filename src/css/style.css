@@ -1,0 +1,3 @@
+button[aria-label="Story"] {
+  filter: hue-rotate(177deg) !important;
+}
