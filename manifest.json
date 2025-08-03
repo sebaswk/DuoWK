@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "DuoWK",
+  "description": "Herramienta de automatización de respuestas para Duolingo",
+  "version": "1.0",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.duolingo.com/*"],
+      "js": ["src/js/content.js", "src/js/xp.js"],
+      "css": ["src/css/style.css"]
+    }
+  ],
+  "icons": {
+    "16": "src/img/icon16.png",
+    "32": "src/img/icon32.png",
+    "48": "src/img/icon48.png",
+    "128": "src/img/icon128.png",
+    "512": "src/img/logo.png"
+  },
+  "action": {
+    "default_popup": "src/html/popup.html",
+    "default_icon": {
+      "16": "src/img/icon16.png",
+      "32": "src/img/icon32.png",
+      "48": "src/img/icon48.png",
+      "128": "src/img/icon128.png",
+      "512": "src/img/logo.png"
+    }
+  }
+} 
