@@ -25,7 +25,7 @@ Automatización de respuestas para Duolingo.
 4. Cada click en el botón "Dar puntos" te dará 90 puntos de experiencia
 5. Iniciar repetición brinda 90 puntos de experiencia por segundo hasta que detengas la acción.
 
-###
+##
 
 ref: https://github.com/ancym0n/Cerolingo.git
 
