@@ -19,11 +19,12 @@ Automatización de respuestas para Duolingo.
 
 ## Uso
 
-1. Ve a Duolingo e inicia una historia - haz click en continuar - ya puedes salirte de la historia.
-2. Inicia una lección - responde la primer pregunta - click en continuar - ya puedes salirte de la historia.
-3. Usa el panel flotante para obtener puntos automáticamente
-4. Cada click en el botón "Dar puntos" te dará 90 puntos de experiencia
-5. Iniciar repetición brinda 90 puntos de experiencia por segundo hasta que detengas la acción.
+1. Ve a Duolingo e inicia una historia y haz click en continuar
+2. Copia la URL de la historia y pegala en la sección indicada en el logo de la extensión
+3. Inicia una lección; responde la primer pregunta, haz click en continuar y salte de la lección
+4. Usa el panel flotante para obtener puntos automáticamente
+5. Cada click en el botón "Dar puntos" te dará 90 puntos de experiencia
+6. Iniciar repetición brinda 90 puntos de experiencia por segundo hasta que detengas la acción presionando el botón nuevamente.
 
 ##
 
